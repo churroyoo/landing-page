@@ -28,8 +28,9 @@ a {
 }
 
 img {
-    width: 240px;
-    height: auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
 }
 
 .header {
@@ -63,6 +64,10 @@ img {
     flex: 1;
 }
 
+.hero-image {
+    height: auto;
+    max-height: 320px
+}
 
 .quote {
     padding: 64px 128px;
@@ -113,6 +118,26 @@ h4 {
     color:#f9faf8;
     font-weight: bold;
 }
+.third {
+    text-align: center;
+    padding: 64px 128px;
+}
+
+.media-row {
+    display: flex;
+    margin-top: 24px;
+    gap: 32px;
+    justify-content: center;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 160px;
+    gap: 8px;
+}
+
+
 
 .cta {
     padding: 64px 112px;
@@ -128,4 +153,13 @@ h4 {
 
 .wrapper > .sign-up {
     border: solid 1px white;
+}
+
+.quote > p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.media > p {
+    color: #1f2937;
 }
